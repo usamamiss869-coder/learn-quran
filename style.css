@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1a5d3a;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #e0f2f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.card h3 {
+    color: #1a5d3a;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 30px 20px;
+    background-color: #f1f1f1;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a5d3a;
+    color: white;
+    padding: 20px 10px;
+}
